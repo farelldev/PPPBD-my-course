@@ -3,7 +3,7 @@
     <style name="CustomRoundedButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/rounded_button</item>
         <item name="android:textColor">#FFFFFF</item>
-        <item name="android:padding">8dp</item>
+        <item name="android:padding">1dp</item>
     </style>
     <style name="FragmentTitle" parent="Widget.AppCompat.TextView">
         <item name="android:textSize">32sp</item>
@@ -29,5 +29,16 @@
         <item name="android:layout_marginTop">4dp</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="RoundedTopCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">12dp</item>
+        <item name="cornerSizeTopRight">12dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="RoundedCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
     </style>
 </resources>

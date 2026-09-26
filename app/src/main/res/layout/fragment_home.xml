@@ -25,11 +25,13 @@
         android:orientation="vertical"
         app:layout_constraintTop_toBottomOf="@id/home_title"
         android:layout_marginTop="48dp">
-        <ImageView
-            android:layout_width="wrap_content"
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
             android:layout_height="200dp"
             android:src="@drawable/thumbnail"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="16dp"
+            app:shapeAppearanceOverlay="@style/RoundedCorner"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
