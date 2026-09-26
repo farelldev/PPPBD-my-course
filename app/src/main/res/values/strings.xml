@@ -3,4 +3,6 @@
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Materi</string>
     <string name="tab_text_3">Quiz</string>
+    <string name="matkul">Praktikum Pemrograman Perangkat Bergerak Dasar</string>
+    <string name="home_desc">Mata kuliah ini mempelajari praktik pengembangan aplikasi Android menggunakan Android Studio dan bahasa Kotlin.</string>
 </resources>
